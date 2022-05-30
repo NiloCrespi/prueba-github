@@ -413,8 +413,17 @@ a {
         justify-content: start;
         align-items: center;
         padding-left: 15px;
+    }
 
+    .contRedes img {
+        width: 40px;
+        height: 40px;
+        transition: all 500ms;
+    }
 
+    .contRedes img:hover {
+        width: 45px;
+        height: 45px;
     }
 
     .contLogo {
@@ -430,8 +439,14 @@ a {
         font-family: "Ink Highlight";
         font-size: 80px;
         color: rgb(22, 84, 183);
+        transform: scale(1, 1);
     }
-    
+
+    .contLogo h1:hover {
+        transform: scale(1.1, 1.1);
+        transition: all 500ms;
+    }
+
     @font-face {
         font-family: Ink-Highlight;
         src: url(./fonts/Ink-Highlight.ttf);
@@ -455,6 +470,10 @@ a {
         padding: 20px;
         font-size: larger;
         font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .contMenu ul li:hover {
+        font-weight: bold;
     }
 
     .contMenuMobile {
@@ -511,7 +530,18 @@ a {
         z-index: 1;
         position: relative;
     }
+
+    .contNoticiaMain img {
+        width: 600px;
+        height: 300px;
+        transition: all 1s;
+    }
     
+    .contNoticiaMain img:hover {
+        width: 605px;
+        height: 305px;
+    }
+
     .contNoticiaMain h3 {
         position: absolute;
         z-index: 2;
@@ -556,8 +586,15 @@ a {
     
     .contPortadaResena img {
         width: 180px;
+        height: 180px;
+        transition: all 1s;
     }
     
+    .contPortadaResena img:hover {
+        width: 200px;
+        height: 200px;
+    }
+
     .contResenaMain div {
         margin: 10px;
     }
@@ -588,14 +625,28 @@ a {
         align-content: center;
     }
 
+    .contContactoForm p {
+        padding-bottom: 5px;
+    }
+
     .contContactoRedes {
         grid-area: tredes;
         display: flex;
         flex-flow: column;
         justify-content: center;
         align-content: center;
-
     }
+
+    .contContactoRedes img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .contContactoRedes img:hover {
+        width: 110px;
+        height: 110px;
+    }
+
 
     .contContactoRedes div {
         align-self: center;
@@ -641,11 +692,38 @@ a {
         display: flex;
         justify-content: center;
         align-items: center;
+        animation-name: animacionFooter;
+        animation-duration: 10s;
+        animation-timing-function:linear;
+        animation-delay: 0;
+        animation-iteration-count:infinite;
     }
 
     .contLogoFooter img {
         width: 125px;
         height: 125px;
+    }
+
+    @keyframes animacionFooter {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        25% {
+            transform: rotate(90deg);
+        }
+
+        50% {
+            transform: rotate(180deg);
+        }
+
+        75% {
+            transform: rotate(270deg);
+        }
+        
+        100% {
+            transform: rotate(360deg);
+        }
     }
     
 
@@ -668,17 +746,5 @@ a {
     .contPoliticas div p {
         font-weight: 700;
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
