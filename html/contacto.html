@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website</title>
+        <link rel="stylesheet" href="../css/stylesheet.css">
+</head>
+<body>
+
+        <header class="contHeader">
+
+            <div class="contRedes">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="https://www.facebook.com/" target="_self">  
+                                <img src="../img/fb50.png" alt="facebook" width="40"> 
+                            </td>
+                        </tr>
+                        <tr>    
+                            <td>
+                                <a href="https://www.instagram.com/" target="_self">
+                                <img src="../img/ig50.png" alt="instagram" width="40">
+                            </td>
+                        </tr>
+                        <tr>    
+                            <td>
+                                <a href="https://www.twitter.com/" target="_self">
+                                <img src="../img/tw50.png" alt="twitter" width="40">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>    
+
+            <div class="contCentral">
+
+                <div class="contLogo">
+                    <h1><a href="../index.html">website</a></h1>
+                </div>
+
+                <nav class="contMenu">    
+                        <ul>
+                            <li><a href="../html/noticias.html">NOTICIAS</a></li> 
+                            <br>    
+                            <li><a href="../html/resenas.html">RESEÑAS</a></li>   
+                            <br>    
+                            <li><a href="../html/agenda.html">AGENDA</a></li>
+                            <br>
+                            <li><a href="../html/contacto.html">CONTACTO</a></li>    
+                         </ul>
+                </nav> 
+
+                <nav class="contMenuMobile">    
+                    <ul>
+                        <li><a href="../html/noticias.html"><img src="../img/news.png" alt="news" width="40px"></a></li> 
+                        <br>    
+                        <li><a href="../html/resenas.html"><img src="../img/review.png" alt="reviews" width="40px"></a></li>   
+                        <br>    
+                        <li><a href="../html/agenda.html"><img src="../img/calendar.png" alt="agenda" width="40px"></a></li>
+                        <br>
+                        <li><a href="../html/contacto.html"><img src="../img/envelope.png" alt="contacto" width="40px"></a></li>    
+                     </ul>
+                </nav> 
+
+
+            </div>    
+
+            <div class="contPlayer">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1dZ7OmDaHPrSwsZGyySFqy?utm_source=generator&theme=0" width="320" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </div>        
+
+        </header>
+
+        <!-- contenido -->
+
+        <main class="contMainContacto">
+
+            <div class="contContactoTitulo">
+                <h2>¡CONTACTANOS!</h2>
+            </div>
+
+            <div class="contContactoForm">
+                <form action="enviar.php" method="get" enctype="text/plain">
+                    <div>
+                        <label for="nombre">Nombre: </label>
+                        <input type="text" id="nombre">            
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email">E-Mail: </label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <br>
+                    <div>
+                        <p>Mensaje:</p>    
+                        <textarea name="Mensaje" class="mensajeContacto" cols="60" rows="5"></textarea>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="">Acepto teminos y condiciones</label> 
+                        <input type="checkbox" id="acepto">
+                    </div>
+                    <br> 
+                    <div>    
+                        <input type="submit" value="Enviar ahora">
+                    </div>
+                </form>
+            </div>        
+            
+            
+            <div class="contContactoRedes">
+                <div>
+                    <p>O encontranos en las siguientes redes sociales:</p>
+                </div>
+
+                <table class="tablaContacto">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="https://www.facebook.com/" target="_self">  
+                                <img src="../img/fb100.png" alt="facebook"> 
+                            </td>
+                            <td>
+                            <a href="https://www.telegram.com/" target="_self"> 
+                            <img src="../img/tg100.png" alt="telegram">
+                            </td>
+                            <td>
+                                <a href="https://www.instagram.com/" target="_self">
+                                <img src="../img/ig100.png" alt="instagram">
+                            </td>
+                            <td>
+                                <a href="https://www.twitter.com/" target="_self">
+                                <img src="../img/tw100.png" alt="twitter">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table class="tablaContactoMobile">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="https://www.facebook.com/" target="_self">  
+                                <img src="../img/fb100.png" alt="facebook"> 
+                            </td>
+                            <td>
+                            <a href="https://www.telegram.com/" target="_self"> 
+                            <img src="../img/tg100.png" alt="telegram">
+                            </td>
+                        </tr>
+                        <tr>    
+                            <td>
+                                <a href="https://www.instagram.com/" target="_self">
+                                <img src="../img/ig100.png" alt="instagram">
+                            </td>
+                            <td>
+                                <a href="https://www.twitter.com/" target="_self">
+                                <img src="../img/tw100.png" alt="twitter">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>   
+
+            <br>
+            
+        </main>
+
+        <!-- fin contenido -->
+
+        <footer class="contFooter">
+
+            <div class="contCreditos">
+                <div>
+                    <p>Website</p>
+                    <p>2022</p>
+                </div>        
+            </div>
+
+            <br>
+
+            <div class="contLogoFooter">
+                <a href="../index.html">
+                <img src="../img/logo-footer.png" alt="logo footer">
+                </a>
+            </div>
+
+            <br>
+
+            <div class="contPoliticas">
+                <div>
+                    <p>POLITICAS</p>
+
+                    <ul>
+                        <li><a href="#">Privacidad</a></li>         
+                        <li><a href="#">Condiciones del servicio</a></li>         
+                    </ul>
+                </div>    
+            </div>
+
+         </footer>
+</body>
+</html>

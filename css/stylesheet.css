@@ -1,0 +1,684 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
+}
+
+                                    /* MOBILE */
+
+@media screen and (max-width: 549px) {
+	
+	body {
+		margin-bottom: 50px;
+        background-color: rgb(236, 223, 240);;
+	}
+
+            /* HEADER */   
+	.contRedes {
+		display: none;
+	}
+	
+	.contCentral {
+		display: flex;
+		flex-flow: column;
+		align-items: center;
+        justify-content: center;
+	}
+
+	@font-face {
+		font-family: Ink-Highlight;
+		src: url(./fonts/Ink-Highlight.ttf);
+	}    
+
+	.contLogo {
+        height: 80px;
+        max-width: 500px;
+        width: 100%;
+    }
+
+	.contLogo h1 {
+		text-align: center;
+		font-family: "Ink Highlight";
+		font-size: 65px;
+        color: rgb(144, 102, 183);
+	}
+	
+	.contMenu {
+		display: none;
+	}
+	
+	.contMenuMobile {
+		display: flex;
+		flex-flow: column;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		background-color: white;
+	}
+
+	.contMenuMobile ul {
+		list-style-type: none;
+		display: inline-flex;
+		flex-flow: row;
+		align-content: center;
+		border: solid black 1px;
+	}
+	
+	.contMenuMobile li {
+		border: solid black 1px;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+    .contPlayer {
+		display: none;
+	}
+	
+            /* MAIN INDEX */
+    .contMainIndexLeft {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .contMainIndexLeft h2 {
+        align-self: start;
+        margin-left: 10px;
+        padding-bottom: 10px;
+    }
+
+    .contUltimasNoticias {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        width: fit-content;
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .contNoticiaMain {
+        margin: 10px;
+    }
+
+    .contNoticiaMain img {
+        width: 100%;
+        max-width: 450px;
+        padding: 5px;
+    }
+
+    .contNoticiaMain h3 {
+        text-align: center;
+        padding: 5px;
+    }
+
+    .contMainIndexRight {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .contMainIndexRight h2 {
+        align-self: start;
+        margin-left: 10px;
+        padding-bottom: 10px;    
+    }
+
+    .contUltimasResenas {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-items: space-evenly;
+        width: fit-content;
+        max-width: 500px;
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .contInfoResena h3,h4 {
+        text-align: center;
+    }
+
+    .contResenaMain {
+        padding: 5px;
+        margin: 2px;
+    }
+
+            /* CONTACTO */
+    .contContactoTitulo {
+        text-align: center;
+    }
+
+    .contContactoForm {
+        max-width: 549px;
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .mensajeContacto {
+        width: 100%;
+        max-width: 549px;
+    }
+
+    .tablaContacto {
+        display: none;
+    }
+
+    .contContactoRedes {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-self: center;
+    }
+
+    .tablaContactoMobile {
+        width: 100%;
+        max-width: 50%;
+    }
+
+    .contContactoRedes div {
+        width: 100%;
+        max-width: 50%;
+        text-align: center;
+        font-size: large;
+        font-weight: 700;
+    }
+
+        
+            /* FOOTER */
+	.contFooter {
+		display: none;
+	}
+
+}
+
+                                    /* TABLET */
+
+@media screen and (min-width: 550px) and (max-width: 1023px) {
+
+	body {
+		margin-bottom: 50px;
+        background-color: rgb(236, 223, 240);;
+    }
+
+            /* HEADER */   
+	.contRedes {
+		display: none;
+	}
+	
+	.contCentral {
+		display: flex;
+		flex-flow: column;
+		align-items: center;
+        justify-content: center;
+	}
+
+	@font-face {
+		font-family: Ink-Highlight;
+		src: url(./fonts/Ink-Highlight.ttf);
+	}    
+
+	.contLogo {
+        height: 80px;
+        max-width: 500px;
+        width: 100%;
+    }
+
+	.contLogo h1 {
+		text-align: center;
+		font-family: "Ink Highlight";
+		font-size: 65px;
+        color: coral;
+	}
+	
+	.contMenu {
+		display: none;
+	}
+	
+	.contMenuMobile {
+		display: flex;
+		flex-flow: column;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		background-color: white;
+	}
+
+	.contMenuMobile ul {
+		list-style-type: none;
+		display: inline-flex;
+		flex-flow: row;
+		align-content: center;
+		border: solid black 1px;
+	}
+	
+	.contMenuMobile li {
+		border: solid black 1px;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+    .contPlayer {
+		display: none;
+	}
+	
+            /* MAIN INDEX */
+    .contMainIndexLeft {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .contMainIndexLeft h2 {
+        align-self: start;
+        margin-left: 10px;
+        padding-bottom: 10px;
+    }
+
+    .contUltimasNoticias {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        width: fit-content;
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .contNoticiaMain {
+        margin: 10px;
+    }
+
+    .contNoticiaMain img {
+        width: 100%;
+        max-width: 450px;
+        padding: 5px;
+    }
+
+    .contNoticiaMain h3 {
+        text-align: center;
+        padding: 5px;
+    }
+
+    .contMainIndexRight {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .contMainIndexRight h2 {
+        align-self: start;
+        margin-left: 10px;
+        padding-bottom: 10px;    
+    }
+
+    .contUltimasResenas {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-items: space-evenly;
+        width: fit-content;
+        max-width: 900px;
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .contInfoResena h3,h4 {
+        text-align: center;
+    }
+
+    .contResenaMain {
+        padding: 5px;
+        margin: 2px;
+    }
+
+            /* CONTACTO */
+    .contContactoTitulo {
+        text-align: center;
+    }
+
+    .contContactoForm {
+        max-width: 900px;
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mensajeContacto {
+        width: 100%;
+        max-width: 549px;
+    }
+
+    .tablaContacto {
+        display: none;
+    }
+
+    .contContactoRedes {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-self: center;
+    }
+
+    .tablaContactoMobile {
+        width: 100%;
+        max-width: 50%;
+    }
+
+    .contContactoRedes div {
+        width: 100%;
+        max-width: 50%;
+        text-align: center;
+        font-size: large;
+        font-weight: 700;
+    }
+
+        
+            /* FOOTER */
+	.contFooter {
+		display: none;
+	}
+
+}
+
+                                    /* DESKTOP */
+
+@media screen and (min-width: 1024px) {
+
+            /* HEADER */
+
+    .contHeader {
+        display: grid;
+        grid-template-areas: 
+            "redes logo player"
+            "redes menu player";
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: rgb(236, 223, 240);;
+    }
+
+    .contRedes {
+        grid-area: redes;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding-left: 15px;
+
+
+    }
+
+    .contLogo {
+        grid-area: logo;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .contLogo h1 {
+        padding-top: 50px;
+        text-align: center;
+        font-family: "Ink Highlight";
+        font-size: 80px;
+        color: rgb(22, 84, 183);
+    }
+    
+    @font-face {
+        font-family: Ink-Highlight;
+        src: url(./fonts/Ink-Highlight.ttf);
+    }
+
+    .contMenu {
+        grid-area: menu;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .contMenu ul {
+        list-style-type: none;
+        display: inline-flex;
+        flex-flow: row;
+        justify-content: space-evenly;
+    }
+    
+    .contMenu ul li {
+        padding: 20px;
+        font-size: larger;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .contMenuMobile {
+        display: none;
+    }
+
+    .contPlayer {
+        grid-area: player;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 10px;
+    }
+
+            /* MAIN INDEX */
+
+    .contMainIndex {
+        display: grid;
+        grid-template-areas: 
+            "ultNoti ultRese";
+        grid-template-columns: 55% 45%;
+        background-color: rgb(236, 223, 240);;
+    }
+
+    
+    .contMainIndex h2 {
+        padding-left: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+    }
+    
+    .contMainIndexLeft {
+        grid-area: ultNoti;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .contUltimasNoticias {
+        display: flex;
+        flex-flow: column;
+        width: 650px;
+        height: 490px;
+        overflow-y: scroll;
+        align-self: center;
+        justify-self: center;
+        margin: 5px;
+    }
+
+    .contNoticiaMain {
+        width: 600px;
+        height: 300px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        z-index: 1;
+        position: relative;
+    }
+    
+    .contNoticiaMain h3 {
+        position: absolute;
+        z-index: 2;
+        left: 25px;
+        top: 240px
+    }
+    
+    .contUltimasnoticias div {
+        align-self: center;
+    }
+
+    .contMainIndexRight {
+        grid-area: ultRese;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .contUltimasResenas {
+        display: flex;
+        flex-flow: column;
+        width: 540px;
+        height: 450px;
+        overflow-y: scroll;
+        align-self: center;
+        justify-self: center;
+        margin: 5px;
+    }
+    
+    .contResenaMain {
+        width: 480px;
+        height: 200px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        display: flex;
+        flex-flow: row;
+        align-self: center;
+    }
+    
+    .contPortadaResena {
+        margin: 10px;
+    }
+    
+    .contPortadaResena img {
+        width: 180px;
+    }
+    
+    .contResenaMain div {
+        margin: 10px;
+    }
+
+            /* MAIN CONTACTO */
+    .contMainContacto {
+        display: grid;
+        grid-template-areas:
+            "titulo titulo"
+            "formulario tredes";
+        grid-template-columns: 1fr 1fr;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(236, 223, 240);;
+    }
+
+    .contContactoTitulo {
+        grid-area: titulo;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .contContactoForm {
+        padding: 50px;
+        grid-area: formulario;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .contContactoRedes {
+        grid-area: tredes;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+    .contContactoRedes div {
+        align-self: center;
+        padding: 30px;
+        font-size: larger;
+        font-weight: 700;
+    }
+    
+    .tablaContactoMobile {
+        display: none;
+    }
+
+    .tablaContacto {
+        align-self: center;
+    }
+
+
+            /* FOOTER */
+    .contFooter {
+        display: grid;
+        grid-template-areas: 
+            "creditos imgFoot politicas";
+        grid-template-columns: 3fr 1fr 3fr;
+        background-color: rgb(236, 223, 240);;
+    }
+
+    .contCreditos {
+        grid-area: creditos;
+        padding-top: 15px;
+        padding-right: 25px;
+    }
+    
+    .contCreditos div p {
+        text-align: end;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+    }
+
+    .contLogoFooter {
+        grid-area: imgFoot;
+        width: auto;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contLogoFooter img {
+        width: 125px;
+        height: 125px;
+    }
+    
+
+    .contPoliticas {
+        grid-area: politicas;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .contPoliticas div {
+        display: flex;
+        flex-flow: column;
+        padding-top: 15px;
+        margin-left: 25px;
+    }
+    
+    .contPoliticas ul {
+        list-style-type: none;
+    }
+    
+    .contPoliticas div p {
+        font-weight: 700;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
